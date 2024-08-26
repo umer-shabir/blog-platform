@@ -40,14 +40,19 @@ PORT=port_to_run_backend
 ### For the Server
 
 cd server
+##
 npm install
+##
 npm run dev
 
 ### For the Client
 
 cd client
+##
 npm install
+##
 npm run dev
 
 Visit `http://localhost:5173` in your browser to access the blog platform.
+##
 To view backend API visit `http://localhost:5000/api/blogs` in your browser
